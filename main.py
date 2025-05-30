@@ -26,7 +26,7 @@ app.add_middleware(
 Base.metadata.create_all(bind=engine)
 
 # Initialize gemini api
-genai.configure(api_key=os.getenv("GEMINI_API_KEY", "AIzaSyCfD2DsUkUj35Up0l9-hDZzZbHxPK2ZGCQ"))
+genai.configure(api_key=os.getenv("GEMINI_API_KEY", "# api key"))
 model = genai.GenerativeModel('gemini-2.5-flash')
 def process_csv_data(file_content):
     try:
