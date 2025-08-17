@@ -1,16 +1,23 @@
-<<<<<<< HEAD
-# Personal-Finance-Dashboard
-=======
-# React + Vite
+Personal Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack AI-powered personal finance dashboard that helps you upload bank statements, automatically categorize expenses, visualize spending, and receive personlaized budget summaries & financial suggestions.
 
-Currently, two official plugins are available:
+Built with:
+React (frontend)
+FastAPI (backend)
+SQLite (database)
+Gemini's Generative AI (AI-powered insights)
+pandas (CSV parsing & data handling)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+Upload CSV bank statements
+Automatic expense categorization (e.g., Food, Rent, Shopping)
+AI-powered budget summaries & financial suggestions
+Secure data storage with SQLite
+Clean, modern dashboard UI
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 4846ab0 (frontend)
+Tech Stack:
+Frontend: React, TailwindCSS, Recharts
+Backend: FastAPI, PostgreSQL, SQLAlchemy
+AI Integration: Gemini API
+Data Handling: pandas
