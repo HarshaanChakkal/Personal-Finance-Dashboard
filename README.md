@@ -14,7 +14,7 @@ Gemini's Generative AI (AI-powered insights)
 
 pandas (CSV parsing & data handling)
 
-Features
+Features:
 
 Upload CSV bank statements
 
